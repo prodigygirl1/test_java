@@ -4,7 +4,6 @@ import java.io.*;
 
 import static java.lang.Character.isLetter;
 
-// File.readAllLines()
 public class HelloWorld
 {
     public static void main(String[] args) {
