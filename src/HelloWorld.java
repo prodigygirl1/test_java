@@ -20,10 +20,7 @@ public class HelloWorld
             int k = 0;
             for (String s : words_array) {
                 if (!s.equals("")) {
-                    if (isLetter(s.charAt(0))) {
-                        k++;
-                        System.out.println(s + " " + k);
-                    }
+                    if (isLetter(s.charAt(0))) k++;
                 }
             }
             System.out.println(k);
